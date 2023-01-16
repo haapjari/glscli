@@ -18,9 +18,14 @@ Command Line Interface for Glass Generator (https://github.com/haapjari/glsgen).
 
 ---
 
-## Standard
+## How-to-Run
 
-Project uses C++ 17 -standard.
+- Project uses `C++ 17` -standard. Prerequisites: `make`, `g++`
+- Compile: `make compile`
+- Run: `make run`
+- Run, with Valgrind: `make valgrind`
+
+Example: `./bin/glscli --help ` for help with the usage.
 
 ---
 
