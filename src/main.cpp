@@ -3,6 +3,9 @@
 #include <vector>
 #include <algorithm>
 
+#include "Interface.h"
+#include "Interface.cpp"
+
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -27,6 +30,15 @@ int main(int argc, char* argv[]) {
             std::cout << "You entered -h or --help." << std::endl;
         }
     }
+
+    // Testing a Class and Object Initialization.
+
+    Interface commandLineInterface(1, 2);
+
+    int testVariable;
+    testVariable = commandLineInterface.getSum();
+
+    std::cout << "Test Variable: " << testVariable << std::endl;
 
     return 0;
 }

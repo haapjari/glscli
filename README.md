@@ -31,6 +31,7 @@ Example: `./bin/glscli --help ` for help with the usage.
 
 ## To Do
 
+- Create a Command Line Interface object "Interface", which implements the Command Line Interface.
 - Command Line Interface, which reads an input .csv --file and generates a report from it.
 
 ---
