@@ -3,8 +3,8 @@
 #include <vector>
 #include <algorithm>
 
-#include "Interface.h"
-#include "Interface.cpp"
+#include "Interface/Interface.h"
+#include "Interface/Interface.cpp"
 
 using namespace std;
 
@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
     for (int i = 0; i < args.size(); i++) {
         std::cout << i << ": " << args[i] << std::endl;
 
-        // Transform the argument to lowercase.
+        // Transform the argument vector to lowercase.
         std::transform(args[i].begin(), args[i].end(), args[i].begin(), ::tolower);
 
         // Help: -h or --help 
